@@ -3,4 +3,5 @@
 Organization profile and repository map for `Business-Unit-for-Stock`.
 
 - `profile/README.md`: GitHub organization profile.
-- Keep `requirements` and `deploy` as standard entry points.
+- Current public repositories in the organization are `stock-research` and `.github`.
+- References to `requirements` and `deploy` describe the intended governance split, but they are not yet public repositories in the current organization state.

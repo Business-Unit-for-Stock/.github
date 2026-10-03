@@ -13,12 +13,12 @@ upstream project -> organization fork -> workflow call -> raw artifact
                                                     -> normalized data -> research
 ```
 
-## Standard Repositories
+## Current Public Repositories
 
-- [`requirements`](https://github.com/Business-Unit-for-Stock/requirements): product/business requirements, scope, workflows, acceptance criteria, and open questions.
-- [`deploy`](https://github.com/Business-Unit-for-Stock/deploy): deployment orchestration, domains, CI/CD release notes, environment mapping, and operations docs.
 - [`.github`](https://github.com/Business-Unit-for-Stock/.github): organization profile and repository map.
 - [`stock-research`](https://github.com/Business-Unit-for-Stock/stock-research): organization-owned data contracts, workflow orchestration, analysis, and A-share-aware backtesting.
+
+The earlier `requirements` and `deploy` entries represent the intended future governance split, but they are not currently public repositories in this organization.
 
 ## Reused Research Capabilities
 
@@ -34,14 +34,13 @@ The detailed license and integration boundaries are maintained in
 
 ## Repository Map
 
-Current repositories should keep this split:
+Current public repositories are intentionally minimal and reflect the actual organization state:
 
 - Business application repositories own source code, tests, builds, and development docs.
 - `stock-research` owns external-module orchestration, canonical data, quality checks, and analysis logic.
 - Third-party forks stay close to upstream and do not own organization-specific research logic.
-- `requirements` owns durable product/business requirements.
-- `deploy` owns deployment and operations workflows.
 - `.github` owns organization-level profile and repository map.
+- `requirements` and `deploy` are planned governance entry points, but they are not yet public repositories in the current organization state.
 
 ## Governance
 
